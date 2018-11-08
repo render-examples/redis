@@ -1,4 +1,4 @@
-redis-cache-example
+redis-cache
 ===================
 
 This is an example repository which comes with a preconfigured Redis Dockerfile
