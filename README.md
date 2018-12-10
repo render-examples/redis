@@ -4,7 +4,7 @@ This is an example repo with a Dockerfile for running a Redis cache as a **priva
 
 Render private services are only visible to other Render services in your account. They have internal URLs (e.g. `redis:6379`), can speak any protocol (like [RESP](https://redis.io/topics/protocol)), and can listen on any port.
 
-## Deployment instructions on Render
+### Deployment
 1. Select **New Private Service** on your Render dashboard and use your fork of this repo to create the service.
 
 2. Enter a name for the service (this will be used to generate the private URL). Make sure the environment is set to `Docker` and click Save.
