@@ -1,9 +1,14 @@
 # Redis Cache
 
-This is an example repository which comes with a preconfigured Redis Dockerfile
-suitable for running a Redis cache in Render. It's based off of the official
-Redis image (with Alpine Linux) but has a few configuration tweaks optimized for
-Render as a cache.
+This is an example repo with a Dockerfile for running a Redis cache as a **private service** on Render.
 
-A Redis cache is an example of a private service that can run on Render. [Create one on
-Render](https://render.com/select-repo?type=pserv) with this repository.
+Render private services are only visible to other Render services in your account. They have internal URLs (e.g. `redis:6379`), can speak any protocol (like [RESP](https://redis.io/topics/protocol)), and can listen on any port.
+
+## Deployment instructions on Render
+1. Select **New Private Service** on your Render dashboard and use your fork of this repo to create the service.
+
+2. Enter a name for the service (this will be used to generate the private URL). Make sure the environment is set to `Docker` and click Save.
+
+That's it! Once deployed, your private service will be available on a URL similar to `redis:10000`. You can start using your Redis URL from other services in your Render account.
+
+If you need help, you can always chat with us at https://render.com/slack.
