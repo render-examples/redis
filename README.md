@@ -1,4 +1,4 @@
-# Redis Cache
+# Redis on Render
 
 This is an example repo with a Dockerfile for running a Redis cache as a **private service** on Render.
 
