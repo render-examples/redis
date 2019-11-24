@@ -6,7 +6,16 @@ Render private services are only visible to other Render services in your accoun
 
 Backing Redis with a disk makes it resilient to data loss in the case of restarts or deploys, and Render makes this easy to do with Render Disks.
 
-### Deployment
+## Deployment
+
+### One Click Deploy
+
+Use the button below to deploy a persistent Redis instance on Render.
+
+[![Deploy to Render](http://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+### Manual Deployment
+
 1. Select **New Private Service** on your Render dashboard and use your fork of this repo to create the service.
 
 2. Make sure the `Environment` is set to `Docker`, and enter a name for the service (this will be used to generate the private URL). 
