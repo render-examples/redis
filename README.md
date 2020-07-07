@@ -12,7 +12,7 @@ Backing Redis with a disk makes it resilient to data loss in the case of restart
 
 Use the button below to deploy a persistent Redis instance on Render.
 
-[![Deploy to Render](http://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](http://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/redis)
 
 ### Manual Deployment
 
