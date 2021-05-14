@@ -1,6 +1,6 @@
 services:
 - type: pserv
-  name: redis
+  name: redis-aaron
   env: docker
   disk:
     name: data
