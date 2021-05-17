@@ -5,4 +5,4 @@ services:
   disk:
     name: data
     mountPath: /var/lib/redis
-    sizeGB: 10
+    sizeGB: 15
