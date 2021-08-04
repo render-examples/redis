@@ -6,3 +6,15 @@ services:
     name: data
     mountPath: /var/lib/redis
     sizeGB: 15
+
+previewsEnabled: true
+
+envVarGroups:
+  - name: test-env-group
+    envVars:
+      - key: var1
+        value: hello
+      - key: var2
+        sync: false
+
+
