@@ -6,3 +6,4 @@ services:
     name: data
     mountPath: /var/lib/redis
     sizeGB: 10
+  region: frankfurt
