@@ -26,3 +26,13 @@ Click `Save` and you're good to go! Once deployed, your Redis instance will be a
 
 If you need help, you can always chat with us at https://render.com/chat.
 
+## Verify Deploy
+
+Once the service has finished deploying, click into it from the dashboard and open up a shell.
+
+![image](https://user-images.githubusercontent.com/1732414/76480167-2cd6b180-63cb-11ea-851c-e179dd1d344d.png)
+
+In the screenshot above we first connect to redis by running `redis-cli -h redis-k48e -p 10000`. Be sure to replace the host and port values from the service-address shown in your dashboard.
+
+Once connected you are free to run any valid redis commands to verify the deploy. We simply `set foo bar` and verify its result `get foo`. 
+
